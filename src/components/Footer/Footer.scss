@@ -5,10 +5,11 @@
 
   & section {
     gap: 15px;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
     & hr {
-      width: $layout-width;
+      width: 100%;
     }
   }
 }

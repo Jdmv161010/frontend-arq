@@ -67,3 +67,9 @@
 .justify-between {
   justify-content: space-between;
 }
+
+@media only screen and (max-width: $layout-width) {
+  .layout {
+    padding: 0 19px;
+  }
+}
