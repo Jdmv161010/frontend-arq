@@ -1,0 +1,8 @@
+@import './../../styles/variables';
+
+.Navbar {
+  background-color: $yellow-primary;
+  height: $navbar-height;
+  position: relative;
+  width: 100vw;
+}

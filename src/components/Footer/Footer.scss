@@ -1,0 +1,14 @@
+@import './../../styles/variables';
+
+.Footer {
+  background-color: $background-color;
+
+  & section {
+    gap: 15px;
+    padding: 24px 0;
+
+    & hr {
+      width: $layout-width;
+    }
+  }
+}

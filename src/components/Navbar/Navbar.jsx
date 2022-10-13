@@ -1,15 +1,12 @@
-import { AppBar, Toolbar, Typography } from '@mui/material';
 import './Navbar.scss';
 
 const Navbar = () => {
   return (
-    <AppBar position="absolute" className="Navbar">
-      <Toolbar>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Frontend Arq
-        </Typography>
-      </Toolbar>
-    </AppBar>
+    <header className="Navbar flex justify-center align-stretch">
+      <section className="layout flex justify-between align-center">
+        Frontend Arq
+      </section>
+    </header>
   );
 };
 

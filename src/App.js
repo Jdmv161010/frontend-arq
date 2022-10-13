@@ -1,13 +1,18 @@
-import { Navbar } from 'components';
+import { Footer, Navbar } from 'components';
 import { Home } from 'pages';
 import React from 'react';
-import './index.scss';
+import './styles/index.scss';
 
 const App = () => {
   return (
     <React.Fragment>
       <Navbar />
-      <Home />
+      <div className="container flex justify-center align-stretch">
+        <div className="layout">
+          <Home />
+        </div>
+      </div>
+      <Footer />
     </React.Fragment>
   );
 };
